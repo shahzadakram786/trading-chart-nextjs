@@ -39,7 +39,7 @@ export default function TradingChart({ data, showIndicators }: TradingChartProps
   }))
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-4 w-full">
       {/* Professional Candlestick Chart */}
       <ProfessionalTradingChart data={data} showIndicators={showIndicators} />
 

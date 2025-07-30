@@ -17,7 +17,7 @@ export class TradingDataGenerator {
       const change = (Math.random() - 0.5) * price * volatility
       const close = Math.max(open + change, 1000)
 
-      const high = Math.max(open, close) + Math.random() * price * 0.01
+      const high = Math.max(open, close) + Math.random() * price * 0.05
       const low = Math.min(open, close) - Math.random() * price * 0.01
       const volume = Math.random() * 1000 + 100
 
